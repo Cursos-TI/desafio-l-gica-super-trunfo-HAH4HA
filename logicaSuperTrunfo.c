@@ -119,5 +119,5 @@ int main() {
 
     printf("\nResultado Final: %s\n", resultadoFinal);
 
-    return 01;
+    return 0;
 }
