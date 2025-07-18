@@ -95,15 +95,15 @@ int main() {
     int carta1_vencedora_attr1 = (atributo1 == 5) ? (valor1_attr1 < valor2_attr1) : (valor1_attr1 > valor2_attr1);
     int carta1_vencedora_attr2 = (atributo2 == 5) ? (valor1_attr2 < valor2_attr2) : (valor1_attr2 > valor2_attr2);
 
-    // Soma dos atributos
+    
     float soma1 = valor1_attr1 + valor1_attr2;
     float soma2 = valor2_attr1 + valor2_attr2;
 
-    // Resultado final com ternário
+    
     const char* resultadoFinal = (soma1 > soma2) ? carta1.nomePais :
                                  (soma2 > soma1) ? carta2.nomePais : "Empate!";
 
-    // Exibir resultado
+    
     printf("\n===== RESULTADO DA COMPARAÇÃO =====\n");
     printf("Atributo 1: %s\n", nomeAtributo(atributo1));
     printf(" - %s: %.2f\n", carta1.nomePais, valor1_attr1);
